@@ -19,6 +19,10 @@ export const INFO = '#4799eb';
 export const LIGHT = '#20202a';
 export const DARK = '#181924';
 
+
+// task-1
+export const GROCERY_MODULE = 'groceryModule'; 
+//
 export const CATEGORY_MODULE = 'categoryModule';
 export const STORE_MODULE = 'storeModule';
 export const AUTH_MODULE = 'authModule';
@@ -52,6 +56,9 @@ export const GROUPS_ROUTE = (id) => `/settings/groups${id ? '/' + id : ''}`;
 export const STORES_ROUTE = (id) => `/stores${id ? '/' + id : ''}`;
 
 export const CATEGORIES_ROUTE = (id) => `/categories${id ? '/' + id : ''}`;
+
+//task-1 
+export const GROCERIES_ROUTE = (id) => `/groceries${id ? '/' + id : ''}`;
 
 export const LOGIN_ROUTE = '/auth/login';
 export const PROFILE_ROUTE = '/profile';

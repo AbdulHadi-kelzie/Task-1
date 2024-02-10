@@ -63,6 +63,29 @@ const router = createRouter({
                     ]
                 },
                 {
+                    path: '/groceries',
+                    name: 'Groceries',
+                    component: {
+                        render() {
+                            return h(resolveComponent('router-view'));
+                        }
+                    },
+                    children: [
+                        {
+                            path: '',
+                            meta: {
+                                label: 'Groceries'
+                            },
+                            component: () => import('@/views/grocery/Groceries.vue')
+                        },
+                        {
+                            path: ':id',
+                            name: 'Grocery Details',
+                            // component: () => import('@/views/grocery/Grocery.vue')
+                        }
+                    ]
+                },
+                {
                     path: '/users',
                     component: {
                         render() {
