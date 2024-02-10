@@ -1,0 +1,53 @@
+{
+  "field": {
+    "name": "Name",
+    "categoryName": "Category Name",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "location": "Location",
+    "createdAt": "Creation Time & Date",
+    "collectorNote": "Collector Note",
+    "creationUser": "Creation User",
+    "username": "Username",
+    "password": "Password",
+    "email": "E-Mail",
+    "active": "Active",
+    "code": "Code",
+    "fullName": "Full Name",
+    "storeName": "Store Name",
+    "selectCategory": "Select a category",
+    "userRole": "User Role",
+
+    "newPhotos": "New Photos",
+    "oldPhotos": "Old Photos",
+    "jobRole": "Job Role",
+
+    "search": "Search",
+    "actions": "Actions"
+  },
+  "button": {
+    "addNew": "Add New",
+    "login": "Login",
+    "signIn": "Sign In",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "locale": {
+    "arabic": "عربي",
+    "english": "English"
+  },
+  "note":{
+    "drogDropToUpload":"Drag and drop files to here to upload."
+  },
+  "message": {
+    "fieldIsRequired": "Field {0} is required",
+    "confirmDelete": "Confirm Delete",
+    "deleteMessage": "Are you sure you want to delete {title} ?",
+    "fillRequiredFields": "Fill all required fields!",
+    "noItemsFound":"No Items found."
+  }
+}

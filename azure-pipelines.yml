@@ -1,0 +1,35 @@
+trigger:
+- main
+
+pool:
+ vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+   versionSpec: '20.x'
+  displayName: 'Install Node.js'
+
+- script: |
+   yarn install
+   yarn build
+  displayName: 'Yarn install and build'
+
+- task: CopyFiles@2
+  inputs:
+   Contents: 'dist/**' 
+   TargetFolder: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Copy the client to the staging directory'
+
+- task: ArchiveFiles@2
+  inputs:
+   rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/dist'
+   archiveType: 'zip'
+   archiveFile: '$(Build.ArtifactStagingDirectory)/app.zip'
+   includeRootFolder: false
+  displayName: 'Archive the files into a zip file for publishing'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+   pathtoPublish: '$(Build.ArtifactStagingDirectory)/app.zip'
+  displayName: 'Publish the zip file'

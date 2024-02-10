@@ -1,0 +1,53 @@
+{
+  "field": {
+    "name": "الاسم",
+    "categoryName": "اسم التصنيف",
+    "latitude": "خط الطول",
+    "longitude": "خط العرض",
+    "location": "الموقع",
+    "createdAt": "تاريخ الإنشاء",
+    "collectorNote": "ملاحظة",
+    "creationUser": "المستخدم المنشئء",
+    "username": "اسم المستخدم",
+    "password": "كلمة السر",
+    "email": "البريد الإلكتروني",
+    "active": "مفعّل",
+    "code": "الرمز",
+    "fullName": "الاسم الكامل",
+    "storeName": "اسم المتجر",
+    "selectCategory": "اختر التصنيف",
+    "userRole": "صلاحية المستخدم",
+
+    "newPhotos": "الصور الجديدة",
+    "oldPhotos": "الصور القديمة",
+    "jobRole": "الصلاحية",
+
+    "search": "بحث",
+    "actions": "الاجراءات"
+  },
+  "button": {
+    "addNew": "إضافة جديد",
+    "login": "تسجيل الدخول",
+    "signIn": "نسجيل الدخول",
+    "save": "حفظ",
+    "cancel": "إلفاء",
+    "edit": "تغديل",
+    "delete": "حذف",
+    "yes": "نغم",
+    "no": "لا"
+  },
+  "locale": {
+    "arabic": "عربي",
+    "english": "إنكليزي"
+  },
+  "note":{
+    "drogDropToUpload":"اسحب الملفات هنا ليتم رفعها."
+  },
+  "message": {
+    "fieldIsRequired": "الحقل {0} مطلوب",
+    "confirmDelete": "تأكيد الحذف",
+    "deleteMessage": "هل أنت متأكد من حذف {title} ؟",
+    "fillRequiredFields": "يجب تعبئة جميع الحقول المطلوبة!",
+    "noItemsFound":"لا يوجد مواد"
+  }
+}
