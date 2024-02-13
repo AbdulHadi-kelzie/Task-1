@@ -35,12 +35,11 @@ export default {
                 <template #loading>
                     <AtomSpinner />
                 </template>
-                <Column sortable field="code" :header="$t('field.code')" />
-                <Column sortable field="name" :header="$t('field.groceryName')">
-                    <template #body="{ data }">
-                        {{ data.name }}
-                    </template>
-                </Column>
+                <Column sortable field="name" :header="$t('field.groceryName')"></Column>
+                <Column sortable field="address" :header="$t('field.address')" />
+                <Column sortable field="description" :header="$t('field.description')" />
+                   
+             
                 <Column field="actions" header="Actions">
                     <template #body="{ data }">
                         <Button severity="danger" class="p-button-rounded bg-danger mr-2 mb-2" @click="onEdit(data.id)"> <i class="fa-solid fa-pen"></i> {{ $t('button.edit') }} </Button>

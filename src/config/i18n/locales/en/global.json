@@ -2,6 +2,7 @@
   "field": {
     "name": "Name",
     "categoryName": "Category Name",
+    "groceryName": "اسم التصنيف",
     "latitude": "Latitude",
     "longitude": "Longitude",
     "location": "Location",
@@ -17,6 +18,8 @@
     "storeName": "Store Name",
     "selectCategory": "Select a category",
     "userRole": "User Role",
+    "address": "Address",
+    "description": "Description",
 
     "newPhotos": "New Photos",
     "oldPhotos": "Old Photos",

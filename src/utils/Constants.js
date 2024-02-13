@@ -46,7 +46,7 @@ export const TIMESTAMP_FORMAT = 'dddd, MMMM Do YYYY, h:mm:ss a';
 
 //Locally
 //export const API_DOMAIN = (END_POINT) => `http://localhost:7013/api/v1/${END_POINT}`;
-export const API_DOMAIN = (END_POINT) => `http://data.boulevard.solutions/api/v1/${END_POINT}`;
+export const API_DOMAIN = (END_POINT) => `http://offer-api.boulevardme.net/api/v1/${END_POINT}`;
 
 //ROUTES
 export const USERS_ROUTE = (id) => `/users${id ? '/' + id : ''}`;

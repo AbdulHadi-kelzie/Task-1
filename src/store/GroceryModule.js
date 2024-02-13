@@ -6,8 +6,11 @@ import { generalState, generalMutations, generalActions } from './GeneralModule'
 
 const INITIAL_STATE = {
     ...generalState(),
-    name: '',
-    code: ''
+    name: "", 
+    description: "",
+    address: "",
+
+            
 };
 
 const GroceryModule = {

@@ -7,10 +7,11 @@ import RoleModule from './RoleModule'
 import GroupModule from './GroupModule'
 import StoreModule from './StoreModule';
 import CategoryModule from './CategoryModule';
+import GroceryModule from './GroceryModule';
 import {
   AUTH_MODULE,
   GROUP_MODULE, CATEGORY_MODULE,
-  ROLE_MODULE, STORE_MODULE, USER_MODULE
+  ROLE_MODULE, STORE_MODULE, USER_MODULE, GROCERY_MODULE
 } from '../utils/Constants';
 
 
@@ -59,6 +60,7 @@ export default createStore({
     [STORE_MODULE]: StoreModule,
     [CATEGORY_MODULE]: CategoryModule,
     [GROUP_MODULE]: GroupModule,
+    [GROCERY_MODULE]: GroceryModule
 },
 plugins: [
     createPersistedState({
